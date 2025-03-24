@@ -39,12 +39,29 @@
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   
   <!-- Lucide Icons -->
-  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
   
-  <!-- Custom scripts -->
-  <script type="text/babel" src="cyberpunk-ui.js"></script>
-  <script type="text/babel" src="resume-page.js"></script>
-  <script type="text/babel" src="app.js"></script>
+  <!-- Custom scripts - Note: type="text/babel" for JSX transpilation -->
+  <script type="text/babel">
+    // Main app component
+    const App = () => {
+      return (
+        <CyberpunkResume />
+      );
+    };
+
+    // Wait for DOM to be ready
+    document.addEventListener('DOMContentLoaded', () => {
+      // Render the app
+      ReactDOM.render(
+        <App />,
+        document.getElementById('root')
+      );
+    });
+  </script>
+  
+  <!-- Resume component -->
+  <script type="text/babel" src="resume.js"></script>
 </body>
 </html>
 

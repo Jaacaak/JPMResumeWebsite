@@ -23,3 +23,17 @@ canvas {
   display: block;
 }
 
+/* Vertical writing mode for browsers that need it */
+@supports (writing-mode: vertical-rl) {
+  .vertical-text {
+    writing-mode: vertical-rl;
+  }
+}
+
+/* Fallback for browsers that don't support writing-mode */
+@supports not (writing-mode: vertical-rl) {
+  .vertical-text {
+    transform: rotate(90deg);
+  }
+}
+
