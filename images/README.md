@@ -5,9 +5,9 @@ Place all your images here. Make sure to update the image paths in the code if y
 Required images:
 - donation-garden.jpeg
 - environmental-grant.png
-- butterfingers-hand.jpeg
-- wind-turbine.jpeg
-- plastic-bottle.jpeg
+- butterfingers-hand.JPG
+- wind-turbine.jpg
+- plastic-bottle.JPG
 
 You'll need to add these images manually to this directory.
 

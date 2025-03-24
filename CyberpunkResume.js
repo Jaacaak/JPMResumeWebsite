@@ -645,7 +645,7 @@ const CyberpunkResume = () => {
                                 ))}
                               </div>
                               <img
-                                src="C:\Users\jlpm1\Desktop\ProfessionalWebsite\images\butterfingers-hand.JPG"
+                                src="images/butterfingers-hand.jpeg"
                                 alt="Butterfingers robotic hand prototype"
                                 className="w-full h-full object-cover relative z-10"
                               />
@@ -694,7 +694,7 @@ const CyberpunkResume = () => {
                                 ))}
                               </div>
                               <img
-                                src="C:\Users\jlpm1\Desktop\ProfessionalWebsite\images\wind-turbine.jpg"
+                                src="images/wind-turbine.jpeg"
                                 alt="Vertical axis wind turbine project"
                                 className="w-full h-full object-cover relative z-10"
                               />
@@ -743,7 +743,7 @@ const CyberpunkResume = () => {
                                 ))}
                               </div>
                               <img
-                                src="C:\Users\jlpm1\Desktop\ProfessionalWebsite\images\plastic-bottle.JPG"
+                                src="images/plastic-bottle.jpeg"
                                 alt="Plastic bottle recycler machine"
                                 className="w-full h-full object-cover relative z-10"
                               />

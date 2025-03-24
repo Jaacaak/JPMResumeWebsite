@@ -1,4 +1,4 @@
-/* Custom styles */
+/* Custom styles for JPM Professional Website */
 body {
   margin: 0;
   padding: 0;
@@ -23,5 +23,22 @@ img {
 /* Ensure canvas renders properly */
 canvas {
   display: block;
+}
+
+/* Image placeholder style */
+.image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f4f6;
+  color: #6b7280;
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Hidden class for sections */
+.section-hidden {
+  display: none !important;
 }
 

@@ -1,6 +1,6 @@
-# Cyberpunk Resume - GitHub Pages
+# Jack Phillips-Marino Professional Website
 
-This is a cyberpunk-styled resume website for Jack Phillips-Marino, showcasing skills in database development, IT, and programming.
+This is a professionally styled resume website for Jack Phillips-Marino, showcasing skills in database development, IT, and programming.
 
 ## How to Deploy on GitHub Pages
 
@@ -15,15 +15,12 @@ This is a cyberpunk-styled resume website for Jack Phillips-Marino, showcasing s
 
 - `index.html` - Main entry point
 - `styles.css` - Custom styles
-- `app.js` - Main React application
-- `cyberpunk-ui.js` - Cyberpunk UI component
-- `resume-page.js` - Resume page component
 - `images/` - Directory containing all images
 
 ## Customization
 
 To customize this resume:
-1. Update the personal information in `resume-page.js`
+1. Update the personal information in `index.html`
 2. Replace images in the `images/` directory
 3. Modify styles in `styles.css`
 
